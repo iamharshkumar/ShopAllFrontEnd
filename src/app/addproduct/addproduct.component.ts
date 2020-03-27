@@ -5,7 +5,7 @@ import { ProdServiceService } from '../prod-service.service';
 @Component({
   selector: 'app-addproduct',
   templateUrl: './addproduct.component.html',
-  styleUrls: ['./addproduct.component.scss']
+  styleUrls: ['./addproduct.component.css']
 })
 export class AddproductComponent implements OnInit {
   private prod: product = new class implements product{

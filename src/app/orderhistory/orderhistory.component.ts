@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-orderhistory',
   templateUrl: './orderhistory.component.html',
-  styleUrls: ['./orderhistory.component.scss']
+  styleUrls: ['./orderhistory.component.css']
 })
 export class OrderhistoryComponent implements OnInit {
 

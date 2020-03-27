@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-user-cart',
   templateUrl: './user-cart.component.html',
-  styleUrls: ['./user-cart.component.scss']
+  styleUrls: ['./user-cart.component.css']
 })
 export class UserCartComponent implements OnInit {
   cartItemNum;

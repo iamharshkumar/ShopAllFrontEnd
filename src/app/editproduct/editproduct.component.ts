@@ -5,7 +5,7 @@ import { ProdServiceService } from '../prod-service.service';
 @Component({
   selector: 'app-editproduct',
   templateUrl: './editproduct.component.html',
-  styleUrls: ['./editproduct.component.scss']
+  styleUrls: ['./editproduct.component.css']
 })
 export class EditproductComponent implements OnInit {
   product:any;
